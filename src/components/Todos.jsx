@@ -17,6 +17,7 @@ export const Todos = () => {
     
     useEffect(() => {
         dispatch(getAllTodos());
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [])
 
     const getTodos = () => {
